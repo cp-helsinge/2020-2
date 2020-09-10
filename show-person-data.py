@@ -21,7 +21,7 @@ for path in glob("./*/"):
 
 
 for person in person_list:
-  print('{}[person['name'],person['git name'],person['email']])
+  print([person['name'],person['git name'],person['email']])
 #        if line_count == 0:
 #            print(f'Column names are {", ".join(row)}')
 #            line_count += 1
