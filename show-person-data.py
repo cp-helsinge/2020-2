@@ -5,9 +5,9 @@ from glob import glob
 person_list = {}
 field_length = {}
 
-def print_separator_line():
+def print_separator_line(): 
   for field in field_length:
-    print('+' + '-' * (field_length[field]+1), end="");
+    print('+' + '-' * (field_length[field]+1), end="")
   print('+')
 
 # Find alle underbiblioteker. Find filen person-data.csv og indlæs den
