@@ -16,5 +16,6 @@ else:
 
     else:
         print(fir,"og",net,"er det samme")
+        
 
     
