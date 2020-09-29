@@ -6,4 +6,4 @@ navn=input("Hvad hedder du. ")
 if navn=="Børge":
     print("hej", navn,"du er grim")
 else:
-    print("hej", navn+"F### dig")
+    print("hej", navn+"F### dig") 
