@@ -1,0 +1,10 @@
+import turtle
+turtle.shape("turtle")
+turtle.forward(100)
+turtle.left(110)
+turtle.forward(75)
+turtle.left(70)
+turtle.forward(50)
+turtle.left(70)
+turtle.forward(75)
+input()     
