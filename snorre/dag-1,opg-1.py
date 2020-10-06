@@ -1,5 +1,2 @@
-
-test = input("tal? ")
-
-stri = "ff{:>15}ff"
-print(stri.format(77.96))
+test = int(input("tal? "))
+print("et eller andet{:>8}{:.2f} something".format("" ,test ))
