@@ -1,3 +1,5 @@
+turtle.title("SUN")
+turtle.shape("turtle")
 turtle.fillcolor("yellow")
 turtle.begin_fill()
 for n in range(1,50):
