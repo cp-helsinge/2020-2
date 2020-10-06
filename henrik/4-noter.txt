@@ -1,0 +1,6 @@
+Turtle:
+
+
+retvinkel = 90grader
+trekant = 3 x 60 grader = 180 grader 
+trekant tegning = 120grader pr omgang.
