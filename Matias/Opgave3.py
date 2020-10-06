@@ -1,8 +1,3 @@
-text = "hej"
-print (text)
-navn = input ("Hvad Hedder du? ")
-
-if navn == "Matias":
-    print ("hej "+navn+" det er et pænt navn")
-else:
-    print ("hej "+navn+" det er et mega grimt navn")
+n = 5
+for n in range(1,11):
+    print("n =", n * 7)
