@@ -7,6 +7,8 @@ import turtle
 #turtle.right(90)
 #turtle.forward(250)
 #input()
+turtle.title("BIG BOI")
+turtle.shape("turtle")
 turtle.fillcolor("yellow")
 turtle.begin_fill()
 for n in range(1,50):
