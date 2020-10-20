@@ -17,7 +17,5 @@ for n in range(1,50):
     turtle.pencolor("red")
     turtle.forward(50)
     turtle.right(75)
-turtle.right(45)
-turtle.forward(25)
 turtle.end_fill()
 input()
