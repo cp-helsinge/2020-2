@@ -1,6 +1,6 @@
 import turtle
 from square import square
 
-square(400)
+square(200)
 
 input()
