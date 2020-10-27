@@ -2,6 +2,6 @@ import turtle
 
 from trapez import trapez
 
-trapez(146)
+trapez(100000)
 
 input()
