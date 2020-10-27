@@ -1,12 +1,12 @@
 import turtle
 turtle.speed(0)
 turtle.hideturtle()
-def sol(A, B, Y, X):
+def sol(A, B):
     turtle.title("SUN")
     turtle.shape("turtle")
     turtle.fillcolor("yellow")
     turtle.begin_fill()
-    for n in range(1,50):
+    for n in range(1,100):
         turtle.pencolor("red")
         turtle.forward(A)
         turtle.right(B)
