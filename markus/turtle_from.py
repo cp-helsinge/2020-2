@@ -1,3 +1,6 @@
 import turtle
 from opg4 import sol
-sol(50, 75)
+turtle.hideturtle()
+turtle.speed(0)
+sol(50, 75, 100)
+turtle.exitonclick()
