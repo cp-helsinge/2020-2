@@ -1,8 +1,9 @@
 import turtle
-def circle():
-    turtle.speed(11)
-    turtle.circle(200)
-    turtle.left(24)
+
+def circle(size=250):
+        turtle.speed(10)
+        turtle.circle(200)
+        turtle.forward(20)
 
 circle()
 circle()
@@ -20,6 +21,8 @@ circle()
 circle()
 circle()
 circle()
+
+
+
+
 input()
-
-
