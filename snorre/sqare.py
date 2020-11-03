@@ -11,5 +11,3 @@ def elefantBalon(lent=100, heig=100, posix=0, posiy=0):
     turtle.right(90)
     turtle.forward(heig)
     turtle.right(90)
-
-elefantBalon(lent=150, heig=77, posix=100, posiy=20)

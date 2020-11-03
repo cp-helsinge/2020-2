@@ -1,6 +1,5 @@
 import csv
 import os
-from glob import glob
 
 person_list = {}
 field_length = {}
@@ -11,12 +10,12 @@ def print_separator_line():
   print('+')
 
 # Find alle underbiblioteker. Find filen person-data.csv og indlæs den
-for path in glob("./*/"):
+for path in [d for d in os.listdir('.') if os.path.isdir(d)]:
   file_name = os.path.join(path,"person-data.csv")
   if not os.path.isfile(file_name): continue
 
   with open(file_name) as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
+    csv_reader = csv.reader(csv_file, delimiter=',',skipinitialspace=True)
     person_entry = {}
     for row in csv_reader:
       if len(row) >= 2:

@@ -1,14 +1,14 @@
 import turtle 
 
-def square():
+def square(size):
     turtle.speed(5)
-    turtle.forward(209)
+    turtle.forward(size)
     turtle.left(90)
-    turtle.forward(209)
+    turtle.forward(size)
     turtle.left(90)
-    turtle.forward(209)
+    turtle.forward(size)
     turtle.left(90)
-    turtle.forward(209)
+    turtle.forward(size)
     turtle.left(90)
 
 square()
