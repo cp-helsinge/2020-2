@@ -1,10 +1,10 @@
 import turtle
 
-def cirkel(size):
+def circle(size):
     turtle.circle(size)
 
-cirkel(200)
+circle(200)
 
-cirkel(100)
+circle(100)
 
 
