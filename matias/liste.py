@@ -10,3 +10,5 @@ navn = input("")
 if navn == ("hvad hedder de?"):
     for punkt in navne:
         print(punkt)
+        svar = input()
+        
