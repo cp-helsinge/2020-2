@@ -13,7 +13,6 @@ def print_separator_line():
 # Find alle underbiblioteker. Find filen person-data.csv og indlæs den
 for path in [d for d in os.listdir('.') if os.path.isdir(d)]:
   file_name = os.path.join(path,"person-data.csv")
-  print(path,file_name,os.path.isfile(file_name))
   if not os.path.isfile(file_name): continue
 
   with open(file_name) as csv_file:
