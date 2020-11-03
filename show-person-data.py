@@ -1,6 +1,5 @@
 import csv
 import os
-from glob import glob
 
 person_list = {}
 field_length = {}
