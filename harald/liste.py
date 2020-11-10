@@ -1,3 +1,6 @@
+import random
+
+
 traeer = ['egetræ','birketræ','bøgetræ','baobabtræ','mammuttræ']
 #print(traeer)
 #traeer[4]='bannanpalme'
@@ -9,3 +12,7 @@ if "birketræ" in traeer:
 
 else:
     print("no it's no- WHAT birketræ is not on the list! WHAT THE FU")
+
+
+
+print(random.choice(traeer))
