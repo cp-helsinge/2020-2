@@ -8,7 +8,9 @@ print(byer)
 for punkt in byer:
     print(punkt)
 
-print(random(punkt))
+#print(random(punkt))
 
 if "Græsted" in byer:
     print("Græsted er en dejlig by")
+
+print(random.choice(byer))
